@@ -1,0 +1,104 @@
+.chatbox-container{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .chatbox-header{
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0;
+        h3{
+            margin: 0;
+            font-weight: 600;
+        }
+        i{
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+    .header-tab{
+        display: flex;;
+        align-items: center;
+        border-bottom: 1px solid white;
+        .tab{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            color: #555;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            i{
+                font-size: 14px;
+                padding-top: 0;
+            }
+            p{
+               margin-left: 10px; 
+               font-size: 16px;
+               margin-bottom: 0;
+            }
+            &.active{
+                border-bottom: 2px solid  rgb(255, 204, 36);
+            }
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+    .chat-section{
+        padding: 20px;
+        flex: 1;
+        overflow-y: scroll;
+        .chat-block{
+            margin-bottom: 30px;
+            .sender{
+                font-weight: 500;
+                font-size: 14px;
+                small{
+                    margin-left: 5px;
+                    font-weight: 300;
+                }
+            }
+            .msg{
+                margin: 0;
+                padding-top: 5px;
+                color: #555;
+                font-size: 14px;
+            }
+        }
+    }
+    .send-msg-section{
+        padding: 15px;
+        border-top: 1px solid #eee;
+        border-bottom: 1px #eee;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #555;
+        input{
+            padding: 2px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            width: 80%;
+            font-size: 14px;
+        }
+        i{
+            font-size: medium;
+            cursor: pointer;
+            &:hover{
+                color: rgb(202, 155, 0);
+            }
+        }
+    }
+}

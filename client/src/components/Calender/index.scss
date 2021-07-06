@@ -1,0 +1,27 @@
+.calendar {
+  margin: 50px 100px 0 150px;
+}
+
+.e-schedule .e-month-view .e-current-date .e-date-header,
+.e-schedule .e-month-agenda-view .e-current-date .e-date-header {
+  background-color: rgb(248, 191, 85);
+  border-radius: 50%;
+  color: white;
+  width: 30px;
+}
+.e-schedule .e-schedule-toolbar .e-active-view .e-tbar-btn-text,
+.e-schedule .e-schedule-toolbar .e-active-view .e-icons {
+  color: rgb(248, 191, 85);
+}
+.e-schedule .e-month-view .e-appointment {
+  background-color: rgb(248, 191, 85);
+}
+.e-schedule .e-month-view .e-date-header-wrap table td,
+.e-schedule .e-month-agenda-view .e-date-header-wrap table td {
+  background-color: rgba(248, 191, 85, 0.582);
+}
+.e-schedule .e-month-view .e-work-cells,
+.e-schedule .e-month-agenda-view .e-work-cells {
+  background-color: rgba(248, 191, 85, 0.062);
+  font-size: 16px;
+}

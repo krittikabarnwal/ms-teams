@@ -1,0 +1,27 @@
+.new-note {
+  margin: 10px;
+  padding: 10px 20px 20px 20px;
+}
+.form-control {
+  width: 250px;
+}
+.title-add {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+}
+.description-add {
+  width: 300px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.form-box {
+  font-size: 22px;
+  font-weight: 600;
+}
+.add-btn {
+  height: 40px;
+  width: 60px;
+  font-size: 14px;
+}

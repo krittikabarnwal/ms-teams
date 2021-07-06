@@ -1,0 +1,51 @@
+.frame-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(253, 253, 197);
+    border-radius: 0 0 0 10px;
+    overflow: hidden;
+    .header-items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      flex: 1;
+      border-right: 1px solid rgb(245, 245, 245);
+      position: relative;
+      .alert-circle-icon {
+        position: absolute;
+        background: #04796a;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid rgb(0, 0, 0);
+        top: 10px;
+        right: 16px;
+      }
+      &.call-icon-block-time{
+        font-size: 19px;
+        color: #5f6368;
+        min-width: 120px;
+        font-weight: 400;
+      }
+      &.call-icon-block {
+        i{
+          color:rgb(85, 84, 84);
+          font-size: 20px;
+          &.profile {
+            font-size: 30px;
+            color: #04796a;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          background: rgb(250, 219, 116);
+        }
+      }
+    }
+  }

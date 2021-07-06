@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.main-note-box {
+  margin: 0 50px 0 100px;
+  width: 250px;
+  background-color: #fdfdc5;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+}
+
+.details {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.details-title {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+}
+.details-desciption {
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+.del-btn {
+  font-size: medium;
+  background-color: #f8bf55;
+  outline: none;
+  border: white;
+  border-radius: 0 10px 0 0;
+}
+.del-btn:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+}

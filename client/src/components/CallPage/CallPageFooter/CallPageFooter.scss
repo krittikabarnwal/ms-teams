@@ -1,0 +1,56 @@
+.main-footer {
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+  border-radius: 17px;
+  z-index: 1;
+  .icons-bar {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    .icon-block {
+      text-align: center;
+      align-items: center;
+      flex-grow: 1;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(250, 219, 116);
+        i {
+          color: black;
+        }
+      }
+      i {
+        padding-top: 10px;
+        color: white;
+      }
+      span {
+        i {
+          padding-top: 0px;
+        }
+        .fa-times {
+          font-size: 14px;
+        }
+        .fa-desktop {
+          padding-top: 2px;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}
+.red {
+  color: rgb(160, 37, 37);
+}
+.red-bg {
+  background-color: rgb(160, 37, 37);
+  i {
+    color: white;
+  }
+}

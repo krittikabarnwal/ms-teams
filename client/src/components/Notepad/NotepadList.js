@@ -1,9 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import NotepadForm from "./NotepadForm";
-// import Notepad from "./Notepad";
-// import "./Notepad.scss";
-import Header from "../Header/Header";
-import Sidebar from "../Sidebar/Sidebar";
 import Notes from "./Notes";
 import { AddNote } from "./AddNote";
 
@@ -50,8 +45,6 @@ function NotepadList() {
   return (
     <>
       <div>
-        <Header />
-        <Sidebar />
         <AddNote addNote={addNote} />
         <Notes notes={notes} onDelete={onDelete} buttonsview={"true"} />
       </div>

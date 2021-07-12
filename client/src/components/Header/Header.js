@@ -1,10 +1,12 @@
-// questin mark se popup that says it is clone
-
-import React from "react";
+import React, { useState } from "react";
 import logo from "./logo1.png";
 import "./Header.scss";
+import Modal from "react-modal";
+import modalframe from "./Modalframe.jpg";
 
 const Header = () => {
+  // Usestate to store the state of the modal
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <>
       <div className="header-main">
@@ -12,6 +14,7 @@ const Header = () => {
           <a href="/">
             <img src={logo} href="/" alt="logo" width="70px" height="70px" />
           </a>
+          {/* Adding the name od Application */}
           <h1 className=" mt-3 py-3 text-white heading-brand">
             Microsoft Teams
           </h1>
@@ -47,11 +50,24 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            <i
-              className="fa fa-question-circle icon-block"
-              aria-hidden="true"
+            <button
+              className="modalbutton"
+              onClick={() => setModalIsOpen(true)}
               title="More info"
-            ></i>
+            >
+              <i
+                className="fa fa-question-circle icon-block"
+                aria-hidden="true"
+                title="More info"
+              ></i>
+            </button>
+            <Modal
+              className="modalclass"
+              isOpen={modalIsOpen}
+              onRequestClose={() => setModalIsOpen(false)}
+            >
+              <img src={modalframe} width="500px" height="375"></img>
+            </Modal>
           </div>
         </div>
       </div>

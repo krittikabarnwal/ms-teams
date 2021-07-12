@@ -2,6 +2,7 @@ import React from "react";
 import "./CallPageHeader.scss";
 import { formatDate } from "./../../../utils/helper";
 import { useState, useEffect } from "react";
+import UniversalChatRoom from "../../UniversalChatRoom/UniversalChatRoom";
 
 const CallPageHeader = ({
   isMessenger,
@@ -22,11 +23,9 @@ const CallPageHeader = ({
   }, []);
   return (
     <div className="frame-header ">
-      <div className="header-items call-icon-block">
-        <i className="fas fa-user-friends"></i>{" "}
-      </div>
       <div
         className="header-items call-icon-block"
+        title="Private Chat"
         onClick={() => {
           setIsMessenger(true);
           setMessageAlert({});
@@ -37,6 +36,7 @@ const CallPageHeader = ({
           <span className="alert-circle-icon"></span>
         )}
       </div>
+
       <div className="header-items call-icon-block-time">{currentTime}</div>
       <div className="header-items call-icon-block profile">
         <i className="far fa-user-circle"></i>{" "}

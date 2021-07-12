@@ -33,12 +33,8 @@ export const Chatbox = ({ setIsMessenger, sendMsg, messageList }) => {
           }}
         ></i>
       </div>
-      <div className="header-tab">
-        <div className="tab">
-          <i class="fas fa-user-friends"></i>
-          <p>People(1)</p>
-        </div>
-        <div className="tab active">
+      <div className="header-tab ">
+        <div className="tab active ">
           <i class="fas fa-comment-alt"></i>
           <p>Chat</p>
         </div>

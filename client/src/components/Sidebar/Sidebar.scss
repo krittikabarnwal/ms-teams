@@ -1,8 +1,8 @@
 .sidenav {
   position: absolute;
-  margin-top: 70px;
+  margin-top: 71px;
   top: 0;
-  height: 100%;
+  height: calc(100% - 77px);
   width: 65px;
   background-color: #fdfdc5;
 }
@@ -10,7 +10,7 @@
   padding: 15px 6px 15px 6px;
   text-decoration: none;
   font-size: 14px;
-  color: #535252;
+  color: #383737;
   display: block;
 }
 

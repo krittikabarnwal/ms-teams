@@ -7,7 +7,7 @@ export const Info = ({ setMeetInfoPopup, url }) => {
       <div className="info-header">
         <h3>Invite People to join you...</h3>
         <i
-          class="fa fa-times"
+          className="fa fa-times"
           aria-hidden="true"
           onClick={() => {
             setMeetInfoPopup(false);
@@ -15,16 +15,20 @@ export const Info = ({ setMeetInfoPopup, url }) => {
           title="Close"
         ></i>
       </div>
-      <hr></hr>
-      <button className="add-people">
-        <i class="fas fa-user-plus"></i>
-        Add Participants
-      </button>
+      {/* <hr></hr> */}
+      <a href="http://www.gmail.com" target="_blank">
+        {" "}
+        <button className="add-people">
+          <i className="fas fa-user-plus"></i>
+          Add Participants via Email
+        </button>
+      </a>
+
       <p className="extra-info">Copy and share the link to invite someone</p>
       <div className="link-to-vc" title="Copy">
         <span>{url}</span>
         <i
-          class="fas fa-copy"
+          className="fas fa-copy"
           onClick={() => {
             navigator.clipboard.writeText(url);
             window.alert(

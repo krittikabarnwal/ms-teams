@@ -97,7 +97,6 @@ const CallPage = () => {
         });
 
         peer.on("connect", () => {
-          console.log("connected");
           // wait for 'connect' event before using the data channel
         });
 

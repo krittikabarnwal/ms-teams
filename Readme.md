@@ -49,7 +49,7 @@ Some of the Features the application has are:
 - Chatroom
   - Google Authentification
   - multiple people can join
-  - chat in ral time
+  - chat in real time
   - Data stored in Firebase, hence accessable at any time
 - Private Chat during call
   - User can also have a private chat during the call

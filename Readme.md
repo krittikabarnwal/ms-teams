@@ -102,8 +102,9 @@ To run the project locally:
 - Chrome Developer tools
 - Accessiblity tools - Fast Pass
 
-<!-- CONTACT -->
+[YouTube Link showing the prototype](https://youtu.be/Lw_Jk6rnook)
 
+<!-- CONTACT -->
 ## Contact
 
 Krittika Barnwal

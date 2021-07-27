@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 
-  <h3 align="center">Microsoft Teams Clone</h3>
+  <h1 align="center">Microsoft Teams Clone</h1>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
